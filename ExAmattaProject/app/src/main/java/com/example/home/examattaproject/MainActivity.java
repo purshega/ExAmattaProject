@@ -19,5 +19,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize the SDK before executing any other operations,
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
+        
+        123
     }
 }
